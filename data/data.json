@@ -22,6 +22,15 @@
         },
         {
           "id":3,
+          "title":"Age Calculator",
+          "image":"images/projects-images/age-calculator.webp",
+          "category":"Java Script",
+          "demo":"https://aaymansedkey10.github.io/AGE_CALCULATOR/",
+          "code":"https://github.com/Aaymansedkey10/AGE_CALCULATOR.git",
+          "details":"A collaborative project using HTML, CSS, Bootstrap, and JavaScript to create an age calculator."
+        },
+        {
+          "id":4,
           "title":"Eshop market",
           "image":"images/projects-images/E-commerce.webp",
           "category":"Java Script",
@@ -30,7 +39,7 @@
           "details":"An e-commerce platform built using HTML, CSS, Bootstrap, JavaScript, and APIs. It includes interactive features for product browsing and filtering."
         },
         {
-          "id":4,
+          "id":5,
           "title":"Furniture | team project",
           "image":"images/projects-images/Furni-team.webp",
           "category":"Java Script",
@@ -39,7 +48,7 @@
           "details":"A collaborative project using HTML, CSS, Bootstrap, and JavaScript, showcasing an online furniture store with modern design."
         },
         {
-          "id":5,
+          "id":6,
           "title":"Calculator",
           "image":"images/projects-images/calculator.webp",
           "category":"Java Script",
@@ -48,7 +57,7 @@
           "details":"A functional calculator built using HTML, CSS, Bootstrap, and JavaScript, featuring basic arithmetic operations."
         },
         {
-          "id":6,
+          "id":7,
           "title":"To do List",
           "image":"images/projects-images/todolist.webp",
           "demo":"https://aaymansedkey10.github.io/to_do_list/",
@@ -56,7 +65,7 @@
           "details":"A task management application built with HTML, CSS, Bootstrap, and JavaScript, allowing users to add, mark, or delete tasks."
         },
         {
-          "id":7,
+          "id":8,
           "title":"counter",
           "image":"images/projects-images/counter.webp",
           "demo":"https://aaymansedkey10.github.io/counter/",
@@ -65,7 +74,7 @@
           "details":" A simple counter application created using HTML, CSS, Bootstrap, and JavaScript, enabling users to increment or decrement a count value."
         },
         {
-          "id":8,
+          "id":9,
           "title":"ministry of communication",
           "image":"images/projects-images/ministry-of-communication.webp",
           "category":"Basics",
@@ -75,7 +84,7 @@
           
         },
         {
-          "id":9,
+          "id":10,
           "title":"shapely",
           "image":"images/projects-images/Shapely.webp",
           "category":"Basics",
@@ -84,7 +93,7 @@
           "details":"A creative landing page developed with HTML, CSS, and Bootstrap, focusing on an aesthetic design."
         },
         {
-          "id":10,
+          "id":11,
           "title":"charity | team project",
           "image":"images/projects-images/Bootstrap.webp",
           "category":"Basics",
@@ -93,7 +102,7 @@
           "details":"A collaborative website for a charity organization built with HTML, CSS, and Bootstrap, emphasizing clean design and responsiveness."
         },
         {
-          "id":11,
+          "id":12,
           "title":"Gricklo",
           "image":"images/projects-images/Gricklo_1.webp",
           "category":"Basics",
@@ -127,3 +136,5 @@
     ],
     "message" : "Something is wrong"
 }
+
+

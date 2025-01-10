@@ -230,13 +230,10 @@ h2 {
     width: 100% !important;
   }
   /*Start Projects Media Query  */
-  .nav-tabs #ex3-tab-2{
-    width: max-content !important;
-  }
-  .projects .tab-content .tab-pane .card{
+  /* .projects .tab-content .tab-pane .card{
     width: 97%;
     margin: 0 auto;
-  }
+  } */
   /*Start Contact Media Query  */
   .contact-content{
     height: 85vh !important;

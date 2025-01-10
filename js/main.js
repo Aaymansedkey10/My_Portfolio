@@ -166,3 +166,32 @@ function showElements() {
     }
   });
 }
+
+// Disable right-click
+document.addEventListener("contextmenu", (event) => {
+  event.preventDefault();
+});
+
+// Disable key combinations (like F12, Ctrl+Shift+I, etc.)
+document.addEventListener("keydown", (event) => {
+  // Disable F12
+  if (event.key === "F12") {
+    event.preventDefault();
+  }
+
+  // Disable Ctrl+Shift+I (Windows/Linux) or Cmd+Option+I (Mac)
+  if ((event.ctrlKey || event.metaKey) && event.shiftKey && event.key === "I") {
+    event.preventDefault();
+  }
+
+  // Disable Ctrl+U (View Source)
+  if ((event.ctrlKey || event.metaKey) && event.key === "u") {
+    event.preventDefault();
+  }
+
+  // Disable Ctrl+Shift+J (Console)
+  if ((event.ctrlKey || event.metaKey) && event.shiftKey && event.key === "J") {
+    event.preventDefault();
+  }
+});
+
