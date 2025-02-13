@@ -3,34 +3,52 @@
     "error" : false,
     "projects" : [
         {
+          "id":0,
+          "title":"E-commerce",
+          "image":"images/projects-images/first-react-project-ecommerce.webp",
+          "category":"React",
+          "demo":"https://first-react-project-ecommerce.vercel.app/",
+          "code":"https://github.com/Aaymansedkey10/First_React_Project_Ecommerce",
+          "details":"this is first project by using react and API and Use Effect and Set state and more tools in react."
+        },
+        {
           "id":1,
           "title":"Portfolio",
           "image":"images/projects-images/portofolio.webp",
           "category":"Angular",
-          "demo":"https://ayman-sedkey-portfolio.netlify.app/home",
-          "code":"https://github.com/Aaymansedkey10/portfolio-template.git",
+          "demo":"https://portfolio-template-angular.netlify.app/home",
+          "code":"https://github.com/Aaymansedkey10/portfolio-template",
           "details":"Developed using Angular, showcasing a portfolio to highlight skills, projects, and contact details."
         },
         {
           "id":2,
-          "title":"Weahter App",
+          "title":"Weather App",
           "image":"images/projects-images/weatherApp.webp",
-          "category":"Angular",
-          "demo":"https://template-weather-app.netlify.app/",
-          "code":"https://github.com/Aaymansedkey10/Weather-App.git",
-          "details":" Created with Angular, it fetches real-time weather data from an API. It includes functionalities for selecting specific days and displays weather forecasts."
+          "category":"Java Script",
+          "demo":"https://aaymansedkey10.github.io/Weather-App/",
+          "code":"https://github.com/Aaymansedkey10/Weather-App",
+          "details":" Created with Basics and java Script, it fetches real-time weather data from an API. It includes functionalities for selecting specific days and displays weather forecasts."
         },
         {
           "id":3,
+          "title":"Kingdom Horses | team project",
+          "image":"images/projects-images/kingdom-horses.webp",
+          "category":"Java Script",
+          "demo":"https://aaymansedkey10.github.io/Kingdom-Horses/",
+          "code":"https://github.com/Aaymansedkey10/Kingdom-Horses",
+          "details":" Created with Basics And java Script, it fetches real-time data from an Jason file to practice to real website for client."
+        },
+        {
+          "id":4,
           "title":"Age Calculator",
           "image":"images/projects-images/age-calculator.webp",
-          "category":"Java Script",
+          "category":"https://aaymansedkey10.github.io/Weather-App/",
           "demo":"https://aaymansedkey10.github.io/AGE_CALCULATOR/",
           "code":"https://github.com/Aaymansedkey10/AGE_CALCULATOR.git",
           "details":"A collaborative project using HTML, CSS, Bootstrap, and JavaScript to create an age calculator."
         },
         {
-          "id":4,
+          "id":5,
           "title":"Eshop market",
           "image":"images/projects-images/E-commerce.webp",
           "category":"Java Script",
@@ -39,7 +57,7 @@
           "details":"An e-commerce platform built using HTML, CSS, Bootstrap, JavaScript, and APIs. It includes interactive features for product browsing and filtering."
         },
         {
-          "id":5,
+          "id":6,
           "title":"Furniture | team project",
           "image":"images/projects-images/Furni-team.webp",
           "category":"Java Script",
@@ -48,7 +66,7 @@
           "details":"A collaborative project using HTML, CSS, Bootstrap, and JavaScript, showcasing an online furniture store with modern design."
         },
         {
-          "id":6,
+          "id":7,
           "title":"Calculator",
           "image":"images/projects-images/calculator.webp",
           "category":"Java Script",
@@ -57,7 +75,7 @@
           "details":"A functional calculator built using HTML, CSS, Bootstrap, and JavaScript, featuring basic arithmetic operations."
         },
         {
-          "id":7,
+          "id":8,
           "title":"To do List",
           "image":"images/projects-images/todolist.webp",
           "demo":"https://aaymansedkey10.github.io/to_do_list/",
@@ -65,7 +83,7 @@
           "details":"A task management application built with HTML, CSS, Bootstrap, and JavaScript, allowing users to add, mark, or delete tasks."
         },
         {
-          "id":8,
+          "id":9,
           "title":"counter",
           "image":"images/projects-images/counter.webp",
           "demo":"https://aaymansedkey10.github.io/counter/",
@@ -74,7 +92,7 @@
           "details":" A simple counter application created using HTML, CSS, Bootstrap, and JavaScript, enabling users to increment or decrement a count value."
         },
         {
-          "id":9,
+          "id":10,
           "title":"ministry of communication",
           "image":"images/projects-images/ministry-of-communication.webp",
           "category":"Basics",
@@ -84,7 +102,7 @@
           
         },
         {
-          "id":10,
+          "id":11,
           "title":"shapely",
           "image":"images/projects-images/Shapely.webp",
           "category":"Basics",
@@ -93,7 +111,7 @@
           "details":"A creative landing page developed with HTML, CSS, and Bootstrap, focusing on an aesthetic design."
         },
         {
-          "id":11,
+          "id":12,
           "title":"charity | team project",
           "image":"images/projects-images/Bootstrap.webp",
           "category":"Basics",
@@ -102,7 +120,7 @@
           "details":"A collaborative website for a charity organization built with HTML, CSS, and Bootstrap, emphasizing clean design and responsiveness."
         },
         {
-          "id":12,
+          "id":13,
           "title":"Gricklo",
           "image":"images/projects-images/Gricklo_1.webp",
           "category":"Basics",

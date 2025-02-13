@@ -16,27 +16,42 @@ function getData(url, key) {
         if (key === "projects") {
           myProjects = data.projects;
           if (myProjects) {
+            let projectsWithReact = document.getElementById("projectsWithReact");
             let projectsWithAngular = document.getElementById("projectsWithAngular");
             let projectsWithJavaScript = document.getElementById("projectsWithJavaScript");
             let projectsWithBasics = document.getElementById("projectsWithBasics");
+            
+            let projectsWithReactCount = document.getElementById("projectsWithReactCount");
+            let projectsWithAngularCount = document.getElementById("projectsWithAngularCount");
+            let projectsWithJavaScriptCount = document.getElementById("projectsWithJavaScriptCount");
+            let projectsWithBasicsCount = document.getElementById("projectsWithBasicsCount");
+
+            projectsWithReactCount.innerHTML = myProjects.filter((project) => project.category === "React").length;
+            projectsWithAngularCount.innerHTML = myProjects.filter((project) => project.category === "Angular").length;
+            projectsWithJavaScriptCount.innerHTML = myProjects.filter((project) => project.category === "Java Script").length;
+            projectsWithBasicsCount.innerHTML = myProjects.filter((project) => project.category === "Basics").length;
             myProjects.forEach((project) => {
               let projectCard = `
                     <div class="col-12 col-lg-4">
-                      <div class="card mb-3 mb-lg-4">
+                      <div class="card animate__animated animate__fadeInUp rounded-bottom-0 rounded-top-1 mb-3 mb-lg-4 w-100">
                         <img src="${project.image}" class="card-img-top" alt="${project.title}" loading="lazy">
                         <div class="card-body">
                           <h5 class="card-title fw-semibold text-center">${project.title}</h5>
                           <p class="card-text text-secondary lh-sm">${project.details}</p>
-                          <div class="d-flex justify-content-center align-items-center flex-column flex-lg-row gap-2">
-                            <a href="${project.code}" class="btn text-capitalize" target="_blank">Github</a>
-                            <a href="${project.demo}" class="btn text-capitalize" target="_blank">preview</a>
+                          <div class="d-none animate__animated animate__fadeInUp rounded-bottom-0 rounded-top-1 card-buttons-projects">
+                            <div class="d-flex  justify-content-center align-items-center flex-column flex-md-row gap-3 h-100 px-0 px-md-5 px-lg-0">
+                              <a href="${project.code}" class="btn text-capitalize" target="_blank">Github</a>
+                              <a href="${project.demo}" class="btn text-capitalize" target="_blank">preview</a>
+                            </div>
                           </div>
                         </div>
                       </div>
                     </div>
                   
                 `;
-              if (project.category === "Angular") {
+              if (project.category === "React") {
+                projectsWithReact.innerHTML += projectCard;
+              }else if (project.category === "Angular") {
                 projectsWithAngular.innerHTML += projectCard;
               } else if (project.category === "Java Script") {
                 projectsWithJavaScript.innerHTML += projectCard;
@@ -168,30 +183,30 @@ function showElements() {
 }
 
 // Disable right-click
-document.addEventListener("contextmenu", (event) => {
-  event.preventDefault();
-});
+// document.addEventListener("contextmenu", (event) => {
+// //   event.preventDefault();
+// // });
 
-// Disable key combinations (like F12, Ctrl+Shift+I, etc.)
-document.addEventListener("keydown", (event) => {
-  // Disable F12
-  if (event.key === "F12") {
-    event.preventDefault();
-  }
+// // // Disable key combinations (like F12, Ctrl+Shift+I, etc.)
+// // document.addEventListener("keydown", (event) => {
+// //   // Disable F12
+// //   if (event.key === "F12") {
+// //     event.preventDefault();
+// //   }
 
-  // Disable Ctrl+Shift+I (Windows/Linux) or Cmd+Option+I (Mac)
-  if ((event.ctrlKey || event.metaKey) && event.shiftKey && event.key === "I") {
-    event.preventDefault();
-  }
+// //   // Disable Ctrl+Shift+I (Windows/Linux) or Cmd+Option+I (Mac)
+// //   if ((event.ctrlKey || event.metaKey) && event.shiftKey && event.key === "I") {
+// //     event.preventDefault();
+// //   }
 
-  // Disable Ctrl+U (View Source)
-  if ((event.ctrlKey || event.metaKey) && event.key === "u") {
-    event.preventDefault();
-  }
+// //   // Disable Ctrl+U (View Source)
+// //   if ((event.ctrlKey || event.metaKey) && event.key === "u") {
+// //     event.preventDefault();
+// //   }
 
-  // Disable Ctrl+Shift+J (Console)
-  if ((event.ctrlKey || event.metaKey) && event.shiftKey && event.key === "J") {
-    event.preventDefault();
-  }
-});
+// //   // Disable Ctrl+Shift+J (Console)
+// //   if ((event.ctrlKey || event.metaKey) && event.shiftKey && event.key === "J") {
+// //     event.preventDefault();
+// //   }
+// // });
 

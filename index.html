@@ -2,9 +2,11 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8"/>
+  <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Ayman Sedkey | Protfolio</title>
+  <!-- animate css  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
   <!-- font  -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -30,23 +32,35 @@
       <div class="row align-items-center justify-content-center">
         <div class="col-lg-1 d-none d-lg-block">
           <div class="d-flex flex-column social-icons">
-            <a target="_blank" href="https://github.com/Aaymansedkey10" class="btn mb-2"><i class="bi bi-github"></i></a>
-            <a target="_blank" href="http://www.linkedin.com/in/aymansedkey10" class="btn mb-2"><i class="bi bi-linkedin"></i></a>
-            <a target="_blank" href="https://wa.me/201121549081" class="btn mb-2"><i class="bi bi-whatsapp"></i></a>
-            <a target="_blank" href="https://www.facebook.com/share/1EVv6DeJpw/" class="btn mb-2"><i class="bi bi-facebook"></i></a>
+            <a target="_blank" href="https://github.com/Aaymansedkey10" class="btn mb-2"><i
+                class="bi bi-github"></i></a>
+            <a target="_blank" href="http://www.linkedin.com/in/aymansedkey10" class="btn mb-2"><i
+                class="bi bi-linkedin"></i></a>
+            <a target="_blank" href="https://wa.me/201000607106" class="btn mb-2"><i class="bi bi-whatsapp"></i></a>
+            <a target="_blank" href="https://www.facebook.com/share/1EVv6DeJpw/" class="btn mb-2"><i
+                class="bi bi-facebook"></i></a>
           </div>
         </div>
         <div class="col-12 col-lg-11">
           <div class="main-content text-cente w-100 text-capitalize">
+            <!-- <div class="continer-content-header">
+              <h1 class="text-center fw-semibold static-text">Hello I'm</h1>
+              <ul class="text-center fw-semibold my-4 text-capitalize dynamic-test">
+                <li><span>Ayman Sedkey</span></li>
+                <li><span>Front End Developer</span></li>
+                <li><span>SoftWare tester</span></li>
+              </ul>
+            </div> -->
             <h5 class="text-center fw-semibold">Hello I'm</h5>
             <h1 class="text-center fw-semibold">
               Ayman Sedkey
             </h1>
-            <h5 class="text-center fw-semibold my-4">
-              Front End Developer | Angular
+            <h5 class="text-center fw-semibold my-4 text-capitalize">
+              Front-End developer
             </h5>
-            <div class="buttons d-flex flex-column flex-lg-row align-items-center justify-content-center gap-4">
-              <a href="https://drive.google.com/file/d/1RRhqSWCuADDse1kSPT1osSymFMaoX2Nj/view?usp=sharing" class="btn fw-semibold text-capitalize" target="_blank">Download CV</a>
+            <div class="buttons d-flex flex-column flex-md-row align-items-center justify-content-center gap-4">
+              <a href="https://drive.google.com/file/d/1RRhqSWCuADDse1kSPT1osSymFMaoX2Nj/view?usp=sharing"
+                class="btn fw-semibold text-capitalize" target="_blank">Download CV</a>
               <a href="#contact" class="btn fw-semibold text-capitalize">contact</a>
             </div>
           </div>
@@ -111,15 +125,15 @@
             </div>
             <div class="about-text text-center text-secondary">
               <p>
-                I am Ayman Sedky, a passionate front-end developer dedicated to creating user-friendly and visually
-                appealing web
-                applications. I have strong expertise in HTML, CSS, Bootatrap, Tailwind, JavaScript and TypeScript with
-                a specialization in Angular for developing
-                interactive and responsive interfaces that enhance the user experience. I focus on writing clean,
-                efficient, and
-                scalable code while adhering to modern web standards and ensuring accessibility for everyone. I am
-                always striving to
-                deliver creative solutions that meet client needs and improve overall application performance.
+                I am <strong>Ayman Sedky</strong>, a passionate front-end developer committed to crafting intuitive,
+                user-friendly, and visually compelling web applications. With expertise in <strong>HTML, CSS, Bootstrap,
+                  Tailwind CSS, JavaScript, and TypeScript</strong> , I specialize in <strong>Angular and
+                  React</strong>, developing interactive, responsive, and high-performance user interfaces.
+
+                I focus on writing clean, efficient, and scalable code, adhering to modern web standards while ensuring
+                accessibility, performance optimization, and seamless user experiences. Dedicated to continuous learning
+                and innovation, I strive to deliver creative, high-quality solutions that meet client needs and drive
+                impactful digital transformations.
               </p>
             </div>
           </div>
@@ -171,23 +185,50 @@
             <p class="projects-text text-center text-secondary">Here are some of the projects that I have worked on:</p>
           </div>
           <!-- Tabs nav list -->
-          <ul class="nav nav-tabs nav-justified mb-3 mx-auto" role="tablist">
+          <ul class="nav nav-tabs nav-fill mb-3 d-flex align-items-center justify-content-center flex-wrap"
+            role="tablist">
             <li class="nav-item text-center" role="presentation">
-              <a data-mdb-tab-init class="nav-link active" id="ex3-tab-1" href="#container-projects-with-angular"
-                role="tab" aria-controls="container-projects-with-angular" aria-selected="true">Angular</a>
+              <a data-mdb-tab-init class="nav-link fw-semibold active" id="ex3-tab-1"
+                href="#container-projects-with-React" role="tab" aria-controls="container-projects-with-React"
+                aria-selected="true">
+                React
+                <span class="badge rounded-pill ms-2" id="projectsWithReactCount"> 0 </span>
+              </a>
             </li>
             <li class="nav-item text-center" role="presentation">
-              <a data-mdb-tab-init class="nav-link" id="ex3-tab-2" href="#container-porjects-with-javascript" role="tab"
-                aria-controls="container-porjects-with-javascript" aria-selected="false">Java Script</a>
+              <a data-mdb-tab-init class="nav-link fw-semibold" id="ex3-tab-1" href="#container-projects-with-angular"
+                role="tab" aria-controls="container-projects-with-angular" aria-selected="true">
+                Angular
+                <span class="badge rounded-pill ms-2" id="projectsWithAngularCount"> 0 </span>
+              </a>
             </li>
             <li class="nav-item text-center" role="presentation">
-              <a data-mdb-tab-init class="nav-link" id="ex3-tab-3" href="#container-project-with-basics" role="tab"
-                aria-controls="container-project-with-basics" aria-selected="false">Basics</a>
+              <a data-mdb-tab-init class="nav-link fw-semibold" id="ex3-tab-2"
+                href="#container-porjects-with-javascript" role="tab" aria-controls="container-porjects-with-javascript"
+                aria-selected="false">
+                Java Script
+                <span class="badge rounded-pill ms-2" id="projectsWithJavaScriptCount"> 0 </span>
+              </a>
+            </li>
+            <li class="nav-item text-center" role="presentation">
+              <a data-mdb-tab-init class="nav-link fw-semibold" id="ex3-tab-3" href="#container-project-with-basics"
+                role="tab" aria-controls="container-project-with-basics" aria-selected="false">
+                Basics
+                <span class="badge rounded-pill ms-2" id="projectsWithBasicsCount"> 0 </span>
+              </a>
             </li>
           </ul>
           <!-- Tabs content -->
           <div class="tab-content p-0 m-0">
-            <div class="tab-pane fade show active" id="container-projects-with-angular" role="tabpanel"
+            <div class="tab-pane fade show active" id="container-projects-with-React" role="tabpanel"
+              aria-labelledby="ex3-tab-1">
+              <div class="container">
+                <div class="row" id="projectsWithReact">
+                  <!-- this content is shown by javascript -->
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade show" id="container-projects-with-angular" role="tabpanel"
               aria-labelledby="ex3-tab-1">
               <div class="container">
                 <div class="row" id="projectsWithAngular">
@@ -240,10 +281,13 @@
         <div class="col-12 col-lg-7 mb-5 mb-lg-0">
           <div class="contact-body m-auto text-center w-100 contact-form" id="contact">
             <div class="d-flex align-items-center justify-content-center gap-5 mb-2 social-icons">
-              <a target="_blank" href="https://github.com/Aaymansedkey10" class="btn mb-2"><i class="bi bi-github"></i></a>
-              <a target="_blank" href="http://www.linkedin.com/in/aymansedkey10" class="btn mb-2"><i class="bi bi-linkedin"></i></a>
-              <a target="_blank" href="https://wa.me/201121549081" class="btn mb-2"><i class="bi bi-whatsapp"></i></a>
-              <a target="_blank" href="https://www.facebook.com/share/1EVv6DeJpw/" class="btn mb-2"><i class="bi bi-facebook"></i></a>
+              <a target="_blank" href="https://github.com/Aaymansedkey10" class="btn mb-2"><i
+                  class="bi bi-github"></i></a>
+              <a target="_blank" href="http://www.linkedin.com/in/aymansedkey10" class="btn mb-2"><i
+                  class="bi bi-linkedin"></i></a>
+              <a target="_blank" href="https://wa.me/201000607106" class="btn mb-2"><i class="bi bi-whatsapp"></i></a>
+              <a target="_blank" href="https://www.facebook.com/share/1EVv6DeJpw/" class="btn mb-2"><i
+                  class="bi bi-facebook"></i></a>
             </div>
             <form class="text-end" id="contactForm" onsubmit="sendMessage(event)">
               <div class="alert alert-danger p-2 d-none text-center" id="errorAlert"></div>
