@@ -1,158 +1,164 @@
 {
-    "success": true,
-    "error" : false,
-    "projects" : [
-        {
-          "id":0,
-          "title":"E-commerce",
-          "image":"images/projects-images/first-react-project-ecommerce.webp",
-          "category":"React",
-          "demo":"https://first-react-project-ecommerce.vercel.app/",
-          "code":"https://github.com/Aaymansedkey10/First_React_Project_Ecommerce",
-          "details":"this is first project by using react and API and Use Effect and Set state and more tools in react."
-        },
-        {
-          "id":1,
-          "title":"Portfolio",
-          "image":"images/projects-images/portofolio.webp",
-          "category":"Angular",
-          "demo":"https://portfolio-template-angular.netlify.app/home",
-          "code":"https://github.com/Aaymansedkey10/portfolio-template",
-          "details":"Developed using Angular, showcasing a portfolio to highlight skills, projects, and contact details."
-        },
-        {
-          "id":2,
-          "title":"Weather App",
-          "image":"images/projects-images/weatherApp.webp",
-          "category":"Java Script",
-          "demo":"https://aaymansedkey10.github.io/Weather-App/",
-          "code":"https://github.com/Aaymansedkey10/Weather-App",
-          "details":" Created with Basics and java Script, it fetches real-time weather data from an API. It includes functionalities for selecting specific days and displays weather forecasts."
-        },
-        {
-          "id":3,
-          "title":"Kingdom Horses | team project",
-          "image":"images/projects-images/kingdom-horses.webp",
-          "category":"Java Script",
-          "demo":"https://aaymansedkey10.github.io/Kingdom-Horses/",
-          "code":"https://github.com/Aaymansedkey10/Kingdom-Horses",
-          "details":" Created with Basics And java Script, it fetches real-time data from an Jason file to practice to real website for client."
-        },
-        {
-          "id":4,
-          "title":"Age Calculator",
-          "image":"images/projects-images/age-calculator.webp",
-          "category":"https://aaymansedkey10.github.io/Weather-App/",
-          "demo":"https://aaymansedkey10.github.io/AGE_CALCULATOR/",
-          "code":"https://github.com/Aaymansedkey10/AGE_CALCULATOR.git",
-          "details":"A collaborative project using HTML, CSS, Bootstrap, and JavaScript to create an age calculator."
-        },
-        {
-          "id":5,
-          "title":"Eshop market",
-          "image":"images/projects-images/E-commerce.webp",
-          "category":"Java Script",
-          "demo":"https://aaymansedkey10.github.io/e-commerce/",
-          "code":"https://github.com/Aaymansedkey10/e-commerce",
-          "details":"An e-commerce platform built using HTML, CSS, Bootstrap, JavaScript, and APIs. It includes interactive features for product browsing and filtering."
-        },
-        {
-          "id":6,
-          "title":"Furniture | team project",
-          "image":"images/projects-images/Furni-team.webp",
-          "category":"Java Script",
-          "demo":"https://furni-test.vercel.app/",
-          "code":"https://github.com/Essam2004hekal/Furni-test",
-          "details":"A collaborative project using HTML, CSS, Bootstrap, and JavaScript, showcasing an online furniture store with modern design."
-        },
-        {
-          "id":7,
-          "title":"Calculator",
-          "image":"images/projects-images/calculator.webp",
-          "category":"Java Script",
-          "demo":"https://aaymansedkey10.github.io/calculator-template/",
-          "code":"https://github.com/Aaymansedkey10/calculator-template.git",
-          "details":"A functional calculator built using HTML, CSS, Bootstrap, and JavaScript, featuring basic arithmetic operations."
-        },
-        {
-          "id":8,
-          "title":"To do List",
-          "image":"images/projects-images/todolist.webp",
-          "demo":"https://aaymansedkey10.github.io/to_do_list/",
-          "code":"https://github.com/Aaymansedkey10/to_do_list.git",
-          "details":"A task management application built with HTML, CSS, Bootstrap, and JavaScript, allowing users to add, mark, or delete tasks."
-        },
-        {
-          "id":9,
-          "title":"counter",
-          "image":"images/projects-images/counter.webp",
-          "demo":"https://aaymansedkey10.github.io/counter/",
-          "category":"Java Script",
-          "code":"https://github.com/Aaymansedkey10/counter.git",
-          "details":" A simple counter application created using HTML, CSS, Bootstrap, and JavaScript, enabling users to increment or decrement a count value."
-        },
-        {
-          "id":10,
-          "title":"ministry of communication",
-          "image":"images/projects-images/ministry-of-communication.webp",
-          "category":"Basics",
-          "demo":"https://aaymansedkey10.github.io/the_ministry_of_communications/",
-          "code":"https://github.com/Aaymansedkey10/the_ministry_of_communications",
-          "details":"A website designed for a government ministry using HTML, CSS, Bootstrap, and Swiper.js, showcasing responsive design and image sliders."
-          
-        },
-        {
-          "id":11,
-          "title":"shapely",
-          "image":"images/projects-images/Shapely.webp",
-          "category":"Basics",
-          "demo":"https://aaymansedkey10.github.io/Shapely-project/",
-          "code":"https://github.com/Aaymansedkey10/Shapely-project",
-          "details":"A creative landing page developed with HTML, CSS, and Bootstrap, focusing on an aesthetic design."
-        },
-        {
-          "id":12,
-          "title":"charity | team project",
-          "image":"images/projects-images/Bootstrap.webp",
-          "category":"Basics",
-          "demo":"https://aaymansedkey10.github.io/Bootstrap-project/",
-          "code":"https://github.com/Aaymansedkey10/Bootstrap-project",
-          "details":"A collaborative website for a charity organization built with HTML, CSS, and Bootstrap, emphasizing clean design and responsiveness."
-        },
-        {
-          "id":13,
-          "title":"Gricklo",
-          "image":"images/projects-images/Gricklo_1.webp",
-          "category":"Basics",
-          "demo":"https://aaymansedkey10.github.io/Gricklo/",
-          "code":"https://github.com/Aaymansedkey10/Gricklo",
-          "details":" A simple project focusing on layout design using HTML and CSS, emphasizing visual appeal and minimalistic design." 
-        }
-    ],
-    "services":[
-      {
-        "skill":"Build responsive and dynamic web applications using HTML, CSS, JavaScript, TypeScript and Angular."
-      },
-      {
-        "skill":" Work with modern frameworks like Angular to create dynamic and interactive user interfaces."
-      },
-      {
-        "skill":"Optimize web applications for performance and accessibility."
-      },
-      {
-        "skill":"Collaborate with cross-functional teams to deliver high-quality code."
-      },
-      {
-        "skill":"Implement responsive design and ensure cross-browser compatibility."
-      },
-      {
-        "skill":"Contribute to open-source projects and actively participate in developer communities."
-      },
-      {
-        "skill":"Provide ongoing support and maintenance for existing projects."
-      }
-    ],
-    "message" : "Something is wrong"
+  "success": true,
+  "error": false,
+  "projects": [
+    {
+      "id": 0,
+      "title": "E-commerce",
+      "image": "images/projects-images/second-react-ecommerce-project.webp",
+      "category": "React",
+      "demo": "https://react-ecommerce-app-kappa-olive.vercel.app/",
+      "code": "https://github.com/Aaymansedkey10/React-Ecommerce-app",
+      "details": "this is second project by using react and API and Use Effect and Set state and bootstrap and react bootstrap and react router and redux toolkit and more tools in react."
+    },
+    {
+      "id": 1,
+      "title": "E-commerce",
+      "image": "images/projects-images/first-react-project-ecommerce.webp",
+      "category": "React",
+      "demo": "https://first-react-project-ecommerce.vercel.app/",
+      "code": "https://github.com/Aaymansedkey10/First_React_Project_Ecommerce",
+      "details": "this is first project by using react and API and Use Effect and Set state and more tools in react."
+    },
+    {
+      "id": 2,
+      "title": "Portfolio",
+      "image": "images/projects-images/portofolio.webp",
+      "category": "Angular",
+      "demo": "https://portfolio-template-angular.netlify.app/home",
+      "code": "https://github.com/Aaymansedkey10/portfolio-template",
+      "details": "Developed using Angular, showcasing a portfolio to highlight skills, projects, and contact details."
+    },
+    {
+      "id": 3,
+      "title": "Weather App",
+      "image": "images/projects-images/weatherApp.webp",
+      "category": "Java Script",
+      "demo": "https://aaymansedkey10.github.io/Weather-App/",
+      "code": "https://github.com/Aaymansedkey10/Weather-App",
+      "details": " Created with Basics and java Script, it fetches real-time weather data from an API. It includes functionalities for selecting specific days and displays weather forecasts."
+    },
+    {
+      "id": 4,
+      "title": "Kingdom Horses | team project",
+      "image": "images/projects-images/kingdom-horses.webp",
+      "category": "Java Script",
+      "demo": "https://aaymansedkey10.github.io/Kingdom-Horses/",
+      "code": "https://github.com/Aaymansedkey10/Kingdom-Horses",
+      "details": " Created with Basics And java Script, it fetches real-time data from an Jason file to practice to real website for client."
+    },
+    {
+      "id": 5,
+      "title": "Age Calculator",
+      "image": "images/projects-images/age-calculator.webp",
+      "category": "https://aaymansedkey10.github.io/Weather-App/",
+      "demo": "https://aaymansedkey10.github.io/AGE_CALCULATOR/",
+      "code": "https://github.com/Aaymansedkey10/AGE_CALCULATOR.git",
+      "details": "A collaborative project using HTML, CSS, Bootstrap, and JavaScript to create an age calculator."
+    },
+    {
+      "id": 6,
+      "title": "Eshop market",
+      "image": "images/projects-images/E-commerce.webp",
+      "category": "Java Script",
+      "demo": "https://aaymansedkey10.github.io/e-commerce/",
+      "code": "https://github.com/Aaymansedkey10/e-commerce",
+      "details": "An e-commerce platform built using HTML, CSS, Bootstrap, JavaScript, and APIs. It includes interactive features for product browsing and filtering."
+    },
+    {
+      "id": 7,
+      "title": "Furniture | team project",
+      "image": "images/projects-images/Furni-team.webp",
+      "category": "Java Script",
+      "demo": "https://furni-test.vercel.app/",
+      "code": "https://github.com/Essam2004hekal/Furni-test",
+      "details": "A collaborative project using HTML, CSS, Bootstrap, and JavaScript, showcasing an online furniture store with modern design."
+    },
+    {
+      "id": 8,
+      "title": "Calculator",
+      "image": "images/projects-images/calculator.webp",
+      "category": "Java Script",
+      "demo": "https://aaymansedkey10.github.io/calculator-template/",
+      "code": "https://github.com/Aaymansedkey10/calculator-template.git",
+      "details": "A functional calculator built using HTML, CSS, Bootstrap, and JavaScript, featuring basic arithmetic operations."
+    },
+    {
+      "id": 9,
+      "title": "To do List",
+      "image": "images/projects-images/todolist.webp",
+      "demo": "https://aaymansedkey10.github.io/to_do_list/",
+      "code": "https://github.com/Aaymansedkey10/to_do_list.git",
+      "details": "A task management application built with HTML, CSS, Bootstrap, and JavaScript, allowing users to add, mark, or delete tasks."
+    },
+    {
+      "id": 10,
+      "title": "counter",
+      "image": "images/projects-images/counter.webp",
+      "demo": "https://aaymansedkey10.github.io/counter/",
+      "category": "Java Script",
+      "code": "https://github.com/Aaymansedkey10/counter.git",
+      "details": " A simple counter application created using HTML, CSS, Bootstrap, and JavaScript, enabling users to increment or decrement a count value."
+    },
+    {
+      "id": 11,
+      "title": "ministry of communication",
+      "image": "images/projects-images/ministry-of-communication.webp",
+      "category": "Basics",
+      "demo": "https://aaymansedkey10.github.io/the_ministry_of_communications/",
+      "code": "https://github.com/Aaymansedkey10/the_ministry_of_communications",
+      "details": "A website designed for a government ministry using HTML, CSS, Bootstrap, and Swiper.js, showcasing responsive design and image sliders."
+    },
+    {
+      "id": 12,
+      "title": "shapely",
+      "image": "images/projects-images/Shapely.webp",
+      "category": "Basics",
+      "demo": "https://aaymansedkey10.github.io/Shapely-project/",
+      "code": "https://github.com/Aaymansedkey10/Shapely-project",
+      "details": "A creative landing page developed with HTML, CSS, and Bootstrap, focusing on an aesthetic design."
+    },
+    {
+      "id": 13,
+      "title": "charity | team project",
+      "image": "images/projects-images/Bootstrap.webp",
+      "category": "Basics",
+      "demo": "https://aaymansedkey10.github.io/Bootstrap-project/",
+      "code": "https://github.com/Aaymansedkey10/Bootstrap-project",
+      "details": "A collaborative website for a charity organization built with HTML, CSS, and Bootstrap, emphasizing clean design and responsiveness."
+    },
+    {
+      "id": 14,
+      "title": "Gricklo",
+      "image": "images/projects-images/Gricklo_1.webp",
+      "category": "Basics",
+      "demo": "https://aaymansedkey10.github.io/Gricklo/",
+      "code": "https://github.com/Aaymansedkey10/Gricklo",
+      "details": " A simple project focusing on layout design using HTML and CSS, emphasizing visual appeal and minimalistic design."
+    }
+  ],
+  "services": [
+    {
+      "skill": "Build responsive and dynamic web applications using HTML, CSS, JavaScript, TypeScript and Angular."
+    },
+    {
+      "skill": " Work with modern frameworks like Angular to create dynamic and interactive user interfaces."
+    },
+    {
+      "skill": "Optimize web applications for performance and accessibility."
+    },
+    {
+      "skill": "Collaborate with cross-functional teams to deliver high-quality code."
+    },
+    {
+      "skill": "Implement responsive design and ensure cross-browser compatibility."
+    },
+    {
+      "skill": "Contribute to open-source projects and actively participate in developer communities."
+    },
+    {
+      "skill": "Provide ongoing support and maintenance for existing projects."
+    }
+  ],
+  "message": "Something is wrong"
 }
-
-
