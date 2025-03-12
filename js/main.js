@@ -3,12 +3,12 @@ const url = "./data/data.json";
 
 // call showElements when widow scroll
 window.addEventListener('scroll', showElements);
-// call getdata from json
-getData(url, "projects");
-getData(url, "services");
+// call get data from json
+getData("projects");
+getData("services");
 
 // function to get data
-function getData(url, key) {
+function getData(key) {
   fetch(url)
     .then((response) => response.json())
     .then((data) => {
@@ -36,7 +36,7 @@ function getData(url, key) {
                       <div class="card animate__animated animate__fadeInUp rounded-bottom-0 rounded-top-1 mb-3 mb-lg-4 w-100">
                         <img src="${project.image}" class="card-img-top" alt="${project.title}" loading="lazy">
                         <div class="card-body">
-                          <h5 class="card-title fw-semibold text-center">${project.title}</h5>
+                          <h5 class="card-title fw-semibold text-capitalize">${project.title}</h5>
                           <p class="card-text text-secondary lh-sm">${project.details}</p>
                           <div class="d-none animate__animated animate__fadeInUp rounded-bottom-0 rounded-top-1 card-buttons-projects">
                             <div class="d-flex  justify-content-center align-items-center flex-column flex-md-row gap-3 h-100 px-0 px-md-5 px-lg-0">
@@ -166,7 +166,7 @@ function sendMessage(event) {
   }
 }
 
-// funtion showElements when widow scroll
+// function showElements when widow scroll
 function showElements() {
   const elements = document.querySelectorAll('.items');
   elements.forEach((element) => {
@@ -182,31 +182,36 @@ function showElements() {
   });
 }
 
-// Disable right-click
-document.addEventListener("contextmenu", (event) => {
-  event.preventDefault();
-});
 
-// Disable key combinations (like F12, Ctrl+Shift+I, etc.)
-document.addEventListener("keydown", (event) => {
-  // Disable F12
-  if (event.key === "F12") {
+// function to close console and developer tools 
+(function closeConsole() {
+  // Disable right-click
+  document.addEventListener("contextmenu", (event) => {
     event.preventDefault();
-  }
+  });
+  
+  // Disable key combinations (like F12, Ctrl+Shift+I, etc.)
+  document.addEventListener("keydown", (event) => {
+    // Disable F12
+    if (event.key === "F12") {
+      event.preventDefault();
+    }
+  
+    // Disable Ctrl+Shift+I (Windows/Linux) or Cmd+Option+I (Mac)
+    if ((event.ctrlKey || event.metaKey) && event.shiftKey && event.key === "I") {
+      event.preventDefault();
+    }
+  
+    // Disable Ctrl+U (View Source)
+    if ((event.ctrlKey || event.metaKey) && event.key === "u") {
+      event.preventDefault();
+    }
+  
+    // Disable Ctrl+Shift+J (Console)
+    if ((event.ctrlKey || event.metaKey) && event.shiftKey && event.key === "J") {
+      event.preventDefault();
+    }
+  });
+})();
 
-  // Disable Ctrl+Shift+I (Windows/Linux) or Cmd+Option+I (Mac)
-  if ((event.ctrlKey || event.metaKey) && event.shiftKey && event.key === "I") {
-    event.preventDefault();
-  }
-
-  // Disable Ctrl+U (View Source)
-  if ((event.ctrlKey || event.metaKey) && event.key === "u") {
-    event.preventDefault();
-  }
-
-  // Disable Ctrl+Shift+J (Console)
-  if ((event.ctrlKey || event.metaKey) && event.shiftKey && event.key === "J") {
-    event.preventDefault();
-  }
-});
 

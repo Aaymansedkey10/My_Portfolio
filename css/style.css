@@ -159,11 +159,14 @@ h2 {
 }
 .nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
   color: var(--dark-purple);
-  border-color: var(--dark-purple);
+  border-bottom: 3px solid var(--lavender) !important; 
   font-weight: 600;
-  box-shadow: var(--dark-purple) 0px 3px 3px;
+  box-shadow:none !important;
   transition: var(--transition);
 }
+.nav-tabs .nav-link.active .badge, .nav-tabs .nav-item.show .nav-link .badge , .nav-tabs .nav-link:hover .badge {
+  background-color: var(--dark-purple);
+} 
 .projects .tab-content .tab-pane .card {
   position: relative;
   transition: var(--transition) !important;
@@ -174,19 +177,22 @@ h2 {
 }
   .projects .tab-content .tab-pane .card .card-title {
  color: var(--lavender);
+ width: max-content !important;
+ margin: auto !important;
+ margin-bottom: 10px !important;
 }
   .projects .tab-content .tab-pane .card img {
   height: 300px;
   object-fit: fill;
 }
   .projects .tab-content .tab-pane .card:hover {
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px !important;
   cursor: pointer;
-  transform: scale(1.02);
-  transition: var(--transition);
+  transition: var(--transition) !important;
 } 
 .projects .badge {
-  background-color: var(--dark-purple);
+  background-color: var(--lavender);
+  font-size: 12px;
 }
 .card .card-buttons-projects{
   position: absolute;
@@ -209,8 +215,8 @@ h2 {
 .contact-content .contact-form .form-control:focus , .form-control:hover {
   border: 1px solid var(--border-input);
   border-style: dotted;
-  box-shadow: #ccc 0px 3px 8px;
-  outline: none;
+  box-shadow: #ccc 0px 3px 8px !important;
+  outline: none !important;
 }
 
 .contact-content .contact-form textarea {
