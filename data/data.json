@@ -3,6 +3,15 @@
   "error": false,
   "projects": [
     {
+      "id": 0,
+      "title": "CURD Application",
+      "image": "images/projects-images/dashboard.webp",
+      "category": "React",
+      "demo": "https://drive.google.com/file/d/1gN48mxc0hd9ROsadry80IonfqJEUZQg2/view?usp=sharing",
+      "code": "https://github.com/Aaymansedkey10/CURD_Admin_Products",
+      "details": "A responsive CURD application that allows users to manage products, categories, and orders. Designed to be fast, user-friendly, and efficient."
+    },
+    {
       "id":0,
       "title":"Quran Application",
       "image":"images/projects-images/quran-application.webp",
