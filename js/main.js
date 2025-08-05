@@ -17,17 +17,17 @@ async function getData(key) {
           myProjects = data.projects;
           if (myProjects) {
             let projectsWithReact = document.getElementById("projectsWithReact");
-            let projectsWithAngular = document.getElementById("projectsWithAngular");
+            // let projectsWithAngular = document.getElementById("projectsWithAngular");
             let projectsWithJavaScript = document.getElementById("projectsWithJavaScript");
             let projectsWithBasics = document.getElementById("projectsWithBasics");
             
             let projectsWithReactCount = document.getElementById("projectsWithReactCount");
-            let projectsWithAngularCount = document.getElementById("projectsWithAngularCount");
+            // let projectsWithAngularCount = document.getElementById("projectsWithAngularCount");
             let projectsWithJavaScriptCount = document.getElementById("projectsWithJavaScriptCount");
             let projectsWithBasicsCount = document.getElementById("projectsWithBasicsCount");
 
             projectsWithReactCount.innerHTML = myProjects.filter((project) => project.category === "React").length;
-            projectsWithAngularCount.innerHTML = myProjects.filter((project) => project.category === "Angular").length;
+            // projectsWithAngularCount.innerHTML = myProjects.filter((project) => project.category === "Angular").length;
             projectsWithJavaScriptCount.innerHTML = myProjects.filter((project) => project.category === "Java Script").length;
             projectsWithBasicsCount.innerHTML = myProjects.filter((project) => project.category === "Basics").length;
             myProjects.forEach((project) => {
@@ -51,8 +51,8 @@ async function getData(key) {
                 `;
               if (project.category === "React") {
                 projectsWithReact.innerHTML += projectCard;
-              }else if (project.category === "Angular") {
-                projectsWithAngular.innerHTML += projectCard;
+              // }else if (project.category === "Angular") {
+              //   projectsWithAngular.innerHTML += projectCard;
               } else if (project.category === "Java Script") {
                 projectsWithJavaScript.innerHTML += projectCard;
               } else if (project.category === "Basics") {
